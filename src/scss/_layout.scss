@@ -1,0 +1,18 @@
+// контент контейнер, max-width: 1200px
+//  классы для сетки
+
+.content-container {
+    margin: 0 auto;
+    // min-width: $min-width;  //  450px
+    // max-width: $max-width; // ?? max - 1200 px
+    text-align: center;
+    width: 30rem;  // 480px
+    padding-right: 0.938rem;   // 15px
+    padding-left: 0.938rem;    //15px
+    }
+
+.features__item-container {
+    display: flex;
+    flex-direction: column;
+    width: 18.938rem; // 303px
+}

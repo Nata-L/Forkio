@@ -1,0 +1,28 @@
+// colors
+$color--main: #323232;
+$color--secondary: #848e97;
+$color--gray-purple: #635c73;
+$color--logo: #333333;
+
+$white: #fff;
+$black: #000;
+
+$bg-color: #eee;
+$btn-color: #8d81ac;
+
+//font
+$font-family--main: 'Montserrat', Arial, sans-serif;;
+$font-size--main: 1rem; // 16px
+$font-weight--main: 400;
+$line-height--main: 1.2;
+
+$font-family--second: 'Source Sans Pro', Arial, sans-serif;
+$font-size--second: 0.875rem;  // 14px
+$font-weight--bold: 700;
+
+
+// layer
+$max-width: 75rem;  // 450px ?? или 700-планшет
+$min-width: 28.125rem;
+
+// mixins
