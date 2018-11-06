@@ -6,7 +6,8 @@
     // min-width: $min-width;  //  450px
     // max-width: $max-width; // ?? max - 1200 px
     text-align: center;
-    width: 30rem;  // 480px
+    // width: 30rem;  // 480px
+    max-width: 75rem;  // 1200px 1170+15+15
     padding-right: 0.938rem;   // 15px
     padding-left: 0.938rem;    //15px
     }
@@ -16,3 +17,8 @@
     flex-direction: column;
     width: 18.938rem; // 303px
 }
+
+.dflex {
+    display: flex;
+}
+
