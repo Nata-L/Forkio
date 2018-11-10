@@ -1,6 +1,6 @@
 .btn {
     display: inline-block;
-    border-radius: 28px;
+    border-radius: 2rem;
     background-color: $btn-color;
     user-select: none;
     outline: none;
@@ -10,7 +10,7 @@
     font-family: $font-family--main;
     font-weight: 700;
     font-size: 1.063rem;  //17px
-    line-height: 2.9;
+    // line-height: 2.9;
     text-align: center;
 
     &:hover {

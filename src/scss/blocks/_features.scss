@@ -3,12 +3,13 @@
     &__content-container {
         padding-top: 3rem; // 48px
         // padding-bottom: ;
+        flex-direction: column;
     }
 
     &__title {
         font-family: $font-family--main;
         color:  $btn-color;
-        font-size: 3rem; // 48px
+        font-size: 2.2rem; // 48px
         font-weight: 700;
         line-height: 1.125;
         text-align: center;
@@ -22,8 +23,9 @@
     &__item-container {
         display: flex;
         flex-direction: column;
-        width: 18.938rem; // 303px
+        width: 75%; // 303px
         margin-bottom: 2.5rem; //40px
+        margin-left: 5%;
     }
 
     &__grig-item {
@@ -75,4 +77,40 @@
 .features__icon--4 {
     width: 4.438rem; // 71
     height: 4.438rem; // 71
+}
+
+.features__img {
+    margin-bottom: -2.5rem; //40px
+}
+
+@media (max-width: 800px) {
+    .features__title--hidden-sm {
+        display: none;
+    }
+
+    .features__content-container {
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .features__grid-container {
+        width: 45%;
+    }
+
+    .features__img {
+        width: 55%;
+    }
+
+    .features__title--hidden {
+        display: none;
+    }
+
+    .features__content-container {
+        flex-direction: row;
+    }
+
+    .features__title {
+        font-size: 3rem;
+    }
 }
